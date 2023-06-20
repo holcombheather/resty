@@ -1,0 +1,8 @@
+$backgroundColor: rgb(100, 149, 237);
+// TODO: update background color
+
+footer {
+  text-align: center;
+  color: white;
+  background: lighten($backgroundColor, 5%);
+}

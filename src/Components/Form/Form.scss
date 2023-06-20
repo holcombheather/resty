@@ -3,12 +3,18 @@ $radius: 40%;
 
 form {
   display: inline-block;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  width: 200px;
+  width: 300px;
+  border-style: dotted;
+  padding: 20px;
+  
 
   label {
     display: flex;
     margin: 1rem 0;
+    align-items: center;
 
     &.methods {
       span {
